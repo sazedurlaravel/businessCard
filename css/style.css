@@ -1,0 +1,120 @@
+*{margin: o; padding: 0;}
+.title{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+}
+.title:hover{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+    font-size: x-large;
+}
+#profilePic{
+    width: 55%;
+    margin-top: -12%;
+    box-shadow: 2px 15px 15px #c9c5c5;
+}
+#name{
+    text-align: center;
+}
+#contactSection{
+    margin-top: 5%;
+}
+#contactBtn{
+    border-radius: 50px;
+}
+#contact{
+    background-color: white;
+    border-radius: 50px;
+}
+#whiteSection1{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.icon{
+    width: 4%;
+    transition: 0.2s ease;
+}
+.icon:hover{
+    width: 3%;
+}
+.iconCell strong{
+    margin-left: 5%;
+    font-size: larger;
+}
+#table tr td{
+    text-align: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.socialIcon{
+    width: 6%;
+    padding: 4px;
+    border-radius: 50px;
+}
+#whiteSection2{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: -3%;
+}
+#socialSection{
+    background-color: white;
+    border-radius: 50px;
+}
+.box{
+    width: fit-content;
+}
+.firstIcon{
+    margin-left: 40%;
+}
+.footerLogo{
+    width: 5%;
+    margin: 1%;
+}
+
+@media only screen and (max-width: 768px) {
+    .title{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    .title:hover{
+        text-align: center;
+        text-decoration: underline;
+        color: black;
+        font-size: medium;
+    }
+    #table{
+        margin-left: -10%;
+    }
+    .iconCell strong{
+        margin-left: 5%;
+        font-size: small;
+    }
+    .icon{
+        width: 10%;
+    }
+    .icon:hover{
+        width: 9%;
+    }
+    #whiteSection2{
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: -12%;
+    }
+    .socialIcon{
+        width: 18%;
+        padding: 4px;
+        border-radius: 50px;
+    }
+    .firstIcon{
+        margin-left: 22%;
+    }
+    .footerLogo{
+        width: 15%;
+        margin: 1%;
+    }
+  }
